@@ -1,0 +1,50 @@
+@media screen and (max-width: 600px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+input, select {
+    width: 70%;
+    height: 30px;
+    margin: auto;
+}
+
+label {
+    text-align: center;
+}
+
+button {
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+table {
+    /* border: 1px solid; */
+    width: 100%;
+    border-collapse: collapse; /* Combinação de bordas para evitar espaços entre as células */
+}
+
+td, th {
+    border: 1px solid #000; /* 1px de espessura, cor preta */
+    padding: 10px;
+}
+
+}

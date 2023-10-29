@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Glicose</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<header>
+</header>
+
+<body>
+    <div class="container">
+        <h1>Controle de Glicose</h1>
+        <form id="formulario">
+            <input type="number" id="glicose" required placeholder="Glicose">
+
+            <label for="periodo">Período</label>
+            <select id="periodo">
+                <option value="Ao acordar">Ao acordar</option>
+                <option value="Antes do almoço">Antes do almoço</option>
+                <option value="Antes da janta">Antes da janta</option>
+                <option value="Ao deitar">Ao deitar</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+        
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Período</th>
+                        <th>Glicose</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- <td>22/10/2023</td>
+                        <td>Antes do almoço</td>
+                        <td>100</td> -->
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- <button id="resetButton">Reiniciar</button> -->
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
